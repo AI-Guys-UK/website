@@ -26,15 +26,25 @@
             height: auto;
             margin-bottom: 20px;
         }
+        .contact-container {
+            height: 50px; /* Set a fixed height for the container */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
         .contact-link {
             color: #ffffff;
             text-decoration: none;
             font-size: 1.2em;
             font-family: 'Courier New', Courier, monospace;
             display: inline-block;
-            padding: 10px 20px;
+            padding: 15px 25px; /* Increase initial padding */
             border: 2px solid #df7400;
             border-radius: 5px;
+            transition: padding 0.3s ease;
+        }
+        .contact-link:hover {
+            padding: 10px 20px; /* Shrink padding on hover */
         }
         .linkedin-logo {
             width: 40px; /* Adjust the size as needed */
@@ -48,7 +58,9 @@
 <body>
     <div class="container">
         <img src="logo.png" alt="AI Guys Logo" class="logo">
-        <p><a href="mailto:&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#97;&#105;&#45;&#103;&#117;&#121;&#115;&#46;&#99;&#111;&#109;" class="contact-link">Contact Us</a></p>
+        <div class="contact-container">
+            <a href="mailto:&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#97;&#105;&#45;&#103;&#117;&#121;&#115;&#46;&#99;&#111;&#109;" class="contact-link">Contact Us</a>
+        </div>
     </div>
     <a href="https://www.linkedin.com/company/aiguys-uk" target="_blank"><img src="linkedin.png" alt="LinkedIn Logo" class="linkedin-logo"></a>
 </body>
