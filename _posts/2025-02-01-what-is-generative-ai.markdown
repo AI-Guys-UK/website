@@ -149,7 +149,7 @@ Generative Game AI stands at the intersection of creativity and technology, offe
 
 The adoption of these tools is not without its challenges. From computational demands to ethical concerns, developers must navigate a complex landscape to realize the full potential of Game AI. However, the ongoing advancements in lightweight models, hybrid systems, and player-driven customization point to a future where these tools are more accessible and integral to the gaming industry.
 
-As we look ahead, Generative AI is poised to reshape how games are conceived, developed, and played. It empowers developers to experiment and innovate while providing players with deeply personalized and engaging experiences. The journey is just beginning, but the possibilities are as expansive as the virtual worlds it helps create. the Potential of Generative Game AI.
+As we look ahead, Generative AI is poised to reshape how games are conceived, developed, and played. It empowers developers to experiment and innovate while providing players with deeply personalized and engaging experiences. The journey is just beginning, but the possibilities are as expansive as the virtual worlds it helps create.
 
 
 
