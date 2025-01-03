@@ -152,8 +152,12 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/AI-Guys-UK
-
-
+    - label: "Terms and Conditions"
+      icon: "fas fa-fw fa-file-contract"
+      url: "/terms/"
+    - label: "Privacy Policy"
+      icon: "fas fa-fw fa-user-shield"
+      url: "/privacy/"
 
 # Reading Files
 include:

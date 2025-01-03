@@ -10,6 +10,31 @@
   gtag('config', 'G-KB1M9M2DC8');
 </script>
 
+<script>
+    window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#000"
+                },
+                "button": {
+                    "background": "#f1d600"
+                }
+            },
+            "theme": "classic",
+            "position": "bottom-right",
+            "content": {
+                "message": "This website uses cookies to ensure you get the best experience.",
+                "dismiss": "Got it!",
+                "link": "Learn more",
+                "href": "/privacy/"  <!-- Replace with your privacy policy page URL -->
+            }
+        });
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" />
+
 {% include seo.html %}
 
 {% unless site.atom_feed.hide %}
