@@ -1,0 +1,90 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+/* ==========================================================================
+   AI Guys skin
+   ========================================================================== */
+
+/* Colors */
+$background-color: #252a34 !default;
+$text-color: #eaeaea !default;
+$primary-color: #df7400 !default;
+$border-color: mix(#fff, $background-color, 20%) !default;
+$code-background-color: mix(#000, $background-color, 15%) !default;
+$code-background-color-dark: mix(#000, $background-color, 20%) !default;
+$form-background-color: mix(#000, $background-color, 15%) !default;
+$footer-background-color: mix(#000, $background-color, 30%) !default;
+$link-color: $primary-color !default;
+$link-color-hover: mix(#fff, $link-color, 15%) !default;
+$link-color-visited: mix(#000, $link-color, 15%) !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
+$navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
+
+.author__urls.social-icons i,
+.author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa  {
+  color: inherit;
+}
+
+.ais-search-box .ais-search-box--input {
+  background-color: $form-background-color;
+}
+
+.masthead__menu-item a {
+    font-family: "Courier New", Courier, "Lucida Console", Monaco, Consolas, "DejaVu Sans Mono", monospace;
+    font-size: 1rem; /* Adjust size as needed */
+    letter-spacing: 0.5px; /* Optional for better readability */
+    text-decoration: none; /* Optional to remove underline */
+    color: inherit; /* Keeps the original color */
+}
+
+
+@import "minimal-mistakes"; // main partials
+
+.archive {
+  width: 100%;
+  padding-inline-end: 0;
+}
+
+.feature__item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 1rem; /* Space inside the border */
+  margin: 1rem 0; /* Space between items */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  background-color: #1f1f1f; /* Optional: White background */
+}
+
+input, textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #df7400;
+  border-radius: 4px;
+  background-color: #333;
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+}
+input[type="submit"] {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #df7400;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+input[type="submit"]:hover {
+  background-color: #df7400;
+  color: #1f1f1f;
+}

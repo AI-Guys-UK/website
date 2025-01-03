@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{% assign breadcrumbs_enabled = site.breadcrumbs %}
+{% if page.breadcrumbs != null %}
+  {% assign breadcrumbs_enabled = page.breadcrumbs %}
+{% endif %}
+{% if page.url != "/" and breadcrumbs_enabled %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+    <article class="page" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
+        <div class="page__inner-wrap">
+            <h1>Contact Us</h1>
+            <form action="https://formspree.io/f/xovaagbd" method="POST">
+                <input type="email" name="email" placeholder="Your email" required>
+                <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </article>
+</div>
