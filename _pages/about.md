@@ -17,3 +17,4 @@ Despite running an AI co-development company, Ken isn’t an AI evangelist, but 
 # Rik Alexander
 [LinkedIn](https://www.linkedin.com/in/rikalexander/)
 
+With nearly 30 years of experience creating games in many roles from QA, Creative Producer, Game Director, Studio head and for the last 18 years building his own businesses (some more successful than others!) Rik’s honed his skills to create companies that can help other games teams become successful or be more successful. He loves a mega spreadsheet to get his head around and can usually be found tapping away on his PC generating ideas or refining numbers. He’s made and been involved with many games over the years and some of his favourites are: Various MotoGP games, Rollercoaster tycoon, The Last Leviathan, and frogger (Hasbro Interactive’s version)
