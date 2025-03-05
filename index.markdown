@@ -5,7 +5,7 @@
 layout: splash
 title: "We do AI for Games"
 description: "and we are very good at what we do"
-tagline: "If you need professionals who are experienced with both [Generative](/generative/ai/what-is-generative-ai/) and [Classical](/classical/ai/what-is-classical-ai/) AI Development for video games, or you're thinking of relaunhcing an old IP, then [get in touch](/contact/)!"
+tagline: "If you need professionals who are experienced with both [Generative](/generative/ai/what-is-generative-ai/) and [Classical](/classical/ai/what-is-classical-ai/) AI Development for video games, or you're thinking of relaunching an old IP, then [get in touch](/contact/)!"
 
 header:
   overlay_color: "#1f1f1f" # Set to any valid CSS color (hex, rgba, etc.)
