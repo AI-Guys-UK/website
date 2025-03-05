@@ -76,6 +76,29 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
   background-color: #1f1f1f; /* Optional: White background */
 }
 
+.about-section {
+  padding: 0rem 1rem 2rem 1rem;
+  //background-color: #f9f9f9; /* light background for contrast */
+  text-align: center;
+}
+
+.about-section .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #df7400;
+}
+
+.about-section p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #eaeaea;
+}
+
 input, textarea {
   width: 90%;
   padding: 10px;
