@@ -36,4 +36,16 @@ feature_row:
 {% include feature_row %}
 
 <div class="features-panel">
+AI Guys - AI Guys is a co-development studio focused on providing realistic, grounded AI solutions for game development. With a commitment to transparency, practicality, and honest innovation, AI Guys helps businesses unlock the true potential of artificial intelligence, delivering real-world results without the buzzwords or hype.
 </div>
+
+<!-- Case Study Banner Section -->
+<!-- <div class="feature__wrapper">
+<div class="feature__display" style="background-image: url('{{ "/assets/images/case-study-bg.jpg" | relative_url }}');">
+  <div class="case-study-overlay">
+    <h2>Case Study: AI in Game Development</h2>
+    <p>Discover how our innovative AI solutions transformed video game development.</p>
+    <a href="/case-study/ai-games/" class="btn btn--primary">Read the Case Study</a>
+  </div>
+</div>
+</div> -->

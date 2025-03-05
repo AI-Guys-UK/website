@@ -64,6 +64,18 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
   background-color: #1f1f1f; /* Optional: White background */
 }
 
+.feature__display {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 1rem; /* Space inside the border */
+  margin: 1rem 0; /* Space between items */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  background-color: #1f1f1f; /* Optional: White background */
+}
+
 input, textarea {
   width: 90%;
   padding: 10px;
@@ -87,4 +99,22 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #df7400;
   color: #1f1f1f;
+}
+
+.particles-side {
+  position: absolute;
+  top: 0;
+  bottom: 0;   /* This pins the element from the top to bottom of .page__hero */
+  width: 25%;  /* Adjust width as needed */
+  pointer-events: none;
+  z-index: 1;
+  filter: blur(1px);  /* Optional: softens the effect */
+}
+
+#particles-left {
+  left: 0;
+}
+
+#particles-right {
+  right: 0;
 }
