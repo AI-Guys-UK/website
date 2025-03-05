@@ -5,13 +5,16 @@
 layout: splash
 title: "We do AI for Games"
 description: "and we are very good at what we do"
-tagline: "If you need professionals who are experienced with both [Generative](/generative/ai/what-is-generative-ai/) and [Classical](/classical/ai/what-is-classical-ai/) AI Development for video games, then you have arrived at the right place!"
+tagline: "If you need professionals who are experienced with both [Generative](/generative/ai/what-is-generative-ai/) and [Classical](/classical/ai/what-is-classical-ai/) AI Development for video games, or you're thinking of relaunhcing an old IP, then [get in touch](/contact/)!"
+
 header:
   overlay_color: "#1f1f1f" # Set to any valid CSS color (hex, rgba, etc.)
   overlay_filter: "0.5" # Optional, adds transparency (0.0 to 1.0)
   image: "/assets/images/hero-background.jpg" # Path to your hero image
-  caption: "Transforming Gameplay with AI Expertise" # Optional caption text
-  actions: "Learn More"
+  #caption: "Transforming Gameplay with AI Expertise" # Optional caption text
+  actions:
+     - label: "Learn More"
+       url: "/services/" 
 feature_row:
   - title: "Who We Are"
     excerpt: "We are a team of passionate developers and AI experts dedicated to revolutionizing game development."

@@ -12,14 +12,27 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
-    <article class="page" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
-        <div class="page__inner-wrap">
-            <h1>Contact Us</h1>
-            <form action="https://formspree.io/f/xovaagbd" method="POST">
-                <input type="email" name="email" placeholder="Your email" required>
-                <textarea name="message" rows="5" placeholder="Your message" required></textarea>
-                <input type="submit" value="Send">
-            </form>
-        </div>
-    </article>
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
+    <div class="page__inner-wrap">
+      <!-- Social Links Section -->
+      <h1>Social</h1>
+      <div class="contact-social-links">
+        <a href="https://www.linkedin.com/in/knoland/" target="_blank" rel="noopener" title="LinkedIn - Knoland">
+          <i class="fab fa-linkedin"></i> Ken Noland
+        </a>
+        <br />
+        <a href="https://www.linkedin.com/in/rikalexander/" target="_blank" rel="noopener" title="LinkedIn - Rikalexander">
+          <i class="fab fa-linkedin"></i> Rik Alexander
+        </a>
+      </div>
+      <br />
+      
+      <h1>Contact Us</h1>
+      <form action="https://formspree.io/f/xovaagbd" method="POST">
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+        <input type="submit" value="Send">
+      </form>
+    </div>
+  </article>
 </div>
