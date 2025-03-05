@@ -76,6 +76,7 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
   background-color: #1f1f1f; /* Optional: White background */
 }
 
+// Main Page: About Section
 .about-section {
   padding: 0rem 1rem 2rem 1rem;
   //background-color: #f9f9f9; /* light background for contrast */
@@ -97,6 +98,37 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
   font-size: 1.125rem;
   line-height: 1.6;
   color: #eaeaea;
+}
+
+// Main Page: Case Study Banner
+.case-study-banner {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 0rem 1rem 2rem 1rem;  /* Adjust the padding to control banner height */
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+}
+
+.case-study-overlay {
+  background: #1f1f1f;
+  padding: 2rem;
+  display: inline-block;
+  border-radius: 8px;
+  border: 1px solid #df7400;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.case-study-banner h2 {
+  //font-size: 2rem;
+  //margin-bottom: 1rem;
+}
+
+.case-study-banner p {
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
 }
 
 input, textarea {
