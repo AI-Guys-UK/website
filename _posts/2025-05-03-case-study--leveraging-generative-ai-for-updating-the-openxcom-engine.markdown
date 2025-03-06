@@ -8,7 +8,7 @@ categories: generative ai
 
 ## TL:DR
 
-- Our findings show that AI-assisted development enabled a single engineer to __rebuild an entire game engine in just three months__, a task typically requiring a full team and around 20-24 man months.
+- Our findings show that AI-assisted development enabled a __single engineer__ to rebuild an entire game engine in just __three months__, a task typically requiring a full team and around 20-24 man months.
 - Achieved an average of __416% frame rate increase__.
 - Over __1,800 source files__ were created or modified during this development.
 - AI streamlined Vulkan integration, UI scripting, and debugging, __significantly reducing workload__ while maintaining code quality and allowing rapid iteration.
