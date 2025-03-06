@@ -1,10 +1,20 @@
 ---
 layout: single
-title:  "Case Study: Leveraging Generative AI for Updating the OpenXcom Engine"
+title:  "Case Study: Leveraging GenAI to rebuild the OpenXcom Engine"
 date:   2025-03-05 16:40:49 +0100
 categories: generative ai
 ---
 ![OpenXcom](/assets/images/posts/case_study_1/001%20-%20Xcom1%20Geoscape.png)
+
+## TL:DR
+
+- Our findings show that AI-assisted development enabled a single engineer to __rebuild an entire game engine in just three months__, a task typically requiring a full team and around 20-24 man months.
+- Achieved an average of __416% frame rate increase__.
+- Over __1,800 source files__ were created or modified during this development.
+- AI streamlined Vulkan integration, UI scripting, and debugging, __significantly reducing workload__ while maintaining code quality and allowing rapid iteration.
+- By automating repetitive tasks and providing reference implementations, AI accelerated development and improved debugging efficiency.
+- While AI had limitations, such as hallucinating incorrect solutions or reinforcing suboptimal design choices, its role as a force multiplier led to a structured and maintainable engine modernization.
+- This case study proves that AI-assisted engineering is a scalable solution, empowering solo developers and small teams to complete large-scale projects faster and more efficiently.
 
 ## Abstract
 
