@@ -4,6 +4,8 @@ title:  "Case Study: Leveraging Generative AI for Updating the OpenXcom Engine"
 date:   2025-03-05 16:40:49 +0100
 categories: generative ai
 ---
+![OpenXcom](/assets/images/posts/case_study_1/001%20-%20Xcom1%20Geoscape.png)
+
 ## Abstract
 
 Rebuilding OpenXcom’s engine required overcoming complex technical challenges while maintaining the game’s classic 8-bit aesthetic. The initial goal was to integrate Lua for enhanced modding capabilities, but limitations in the existing engine quickly became apparent, prompting a full rewrite. Vulkan was chosen instead to future-proof the codebase for potential graphics engine upgrades. This decision allowed for a more flexible architecture that could support future graphical improvements beyond the immediate needs of the project.
