@@ -35,7 +35,7 @@ feature_row:
 
 <section class="case-study-banner">
   <div class="case-study-overlay" style="background-image: url('{{ '/assets/images/posts/case_study_1/XcomBannerFade.png' | relative_url }}');background-repeat: no-repeat;background-size: contain;">
-    <h2>Case Study: AI in Game Development</h2>
+    <h2>Case Study: GenAI in Game Development</h2>
     <p>Original Xcom Completely rebuilt in 3 months with 1 developer.</p>
     <a href="/generative/ai/case-study-leveraging-generative-ai-for-updating-the-openxcom-engine/" class="btn btn--primary">Read the Case Study</a>
   </div>
