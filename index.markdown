@@ -33,6 +33,14 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
+<section class="case-study-banner" style="background-image: url('{{ '/assets/images/case-study-bg.jpg' | relative_url }}');">
+  <div class="case-study-overlay">
+    <h2>Case Study: AI in Game Development</h2>
+    <p>Original Xcom Completely rebuilt in 3 months with 1 developer.</p>
+    <a href="/generative/ai/case-study-leveraging-generative-ai-for-updating-the-openxcom-engine/" class="btn btn--primary">Read the Case Study</a>
+  </div>
+</section>
+
 {% include feature_row %}
 
 <section class="about-section">
@@ -45,11 +53,4 @@ feature_row:
   </div>
 </section>
 
-<section class="case-study-banner" style="background-image: url('{{ '/assets/images/case-study-bg.jpg' | relative_url }}');">
-  <div class="case-study-overlay">
-    <h2>Case Study: AI in Game Development</h2>
-    <p>Discover how our innovative AI solutions transformed video game development and delivered real-world results.</p>
-    <a href="/generative/ai/case-study-leveraging-generative-ai-for-updating-the-openxcom-engine/" class="btn btn--primary">Read the Case Study</a>
-  </div>
-</section>
 
