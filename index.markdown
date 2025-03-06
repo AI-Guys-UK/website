@@ -49,7 +49,7 @@ feature_row:
   <div class="case-study-overlay">
     <h2>Case Study: AI in Game Development</h2>
     <p>Discover how our innovative AI solutions transformed video game development and delivered real-world results.</p>
-    <a href="/case-study/ai-games/" class="btn btn--primary">Read the Case Study</a>
+    <a href="/generative/ai/case-study-leveraging-generative-ai-for-updating-the-openxcom-engine/" class="btn btn--primary">Read the Case Study</a>
   </div>
 </section>
 
