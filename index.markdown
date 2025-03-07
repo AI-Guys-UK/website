@@ -14,7 +14,7 @@ header:
   #caption: "Transforming Gameplay with AI Expertise" # Optional caption text
   actions:
      - label: "Learn More"
-       url: "/services/" 
+       url: "/about/what-we-do/" 
 feature_row:
   - title: "Who We Are"
     excerpt: "We are a team of passionate developers and AI experts dedicated to revolutionizing game development."
